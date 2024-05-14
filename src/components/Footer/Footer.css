@@ -24,6 +24,19 @@
     display: none;
 }
 
+.footer-creator {
+    text-align: center;
+}
+
+.footer-creator i.fa-arrow-up-right-from-square{
+    font-size: 0.62rem;
+    margin-left: 2px;
+}
+
+.fa-arrow-up-right-from-square:hover .footer-me {
+    text-decoration: underline;
+}
+
 @media (max-width: 500px) {
     .footer {
         display: block;
@@ -47,5 +60,9 @@
     .footer-links i{
         margin-top: 0.5rem;
         font-size: 1rem;
+    }
+
+    .footer-creator {
+        width: 100%;
     }
 }
