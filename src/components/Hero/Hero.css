@@ -16,7 +16,7 @@
     border-radius: 20px;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
     .hero-container {
         padding: 0 1rem 2rem 1rem;
         min-height: auto;

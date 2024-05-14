@@ -33,7 +33,7 @@
     opacity: 1;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
     .navbar {
         height: 4.5rem;
         position: absolute;

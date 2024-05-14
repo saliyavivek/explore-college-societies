@@ -25,7 +25,7 @@
     color: #000;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 500px) {
     .banner-container {
         position: relative;
         width: 100vw;
