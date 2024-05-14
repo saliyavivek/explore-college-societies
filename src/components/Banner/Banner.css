@@ -29,6 +29,7 @@
     .banner-container {
         position: relative;
         width: 100vw;
+        margin-top: 15px;
     }
 
     .banner-text h1 {
