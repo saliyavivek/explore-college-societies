@@ -1,0 +1,39 @@
+.banner-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    scroll-snap-align: start;
+}
+
+.banner-text {
+    text-align: center;
+    letter-spacing: 5px;
+    display: flex;
+    flex-direction: column;
+    color: #1D1D1F;
+}
+
+.banner-text h1{
+    font-size: 7rem;
+    margin-bottom: 80px;
+}
+
+.banner-text .scroll:hover {
+    cursor: context-menu;
+    color: #000;
+}
+
+@media (max-width: 360px) {
+    .banner-container {
+        position: relative;
+        width: 100vw;
+    }
+
+    .banner-text h1 {
+        font-size: 4.2rem;
+        text-align: left;
+        padding: 0 0 0 1rem;
+    }
+}

@@ -1,0 +1,111 @@
+.card {
+    padding: 5rem 5rem 2rem 5rem;
+    scroll-snap-align: start;
+    background-color: #f5f5f7;   
+}
+
+.card .card-title {
+    margin-bottom: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.card .card-title h1 {
+    font-size: 64px;
+    flex: 0.85;
+}
+
+.card .card-title .tagline {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 0.6rem;
+}
+
+.card img {
+    width: 100%;
+    height: 400px;
+    border: 1px solid rgb(215, 215, 215);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom: none;
+    object-fit: contain;
+}
+
+.card-bottom {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid rgb(215, 215, 215);
+    border-top: none;
+    margin-top: -3px;
+    padding: 0.5rem 0;
+}
+
+.card .description {
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+hr {
+    display: none;
+}
+
+.fa-brands {
+    font-size: 1.3rem;
+    padding: 0.5rem 0.5rem 0 0.5rem;
+}
+
+.fa-facebook, .fa-instagram {
+    color: #000;
+    opacity: 0.8;
+}
+
+.fa-facebook:hover, .fa-instagram:hover {
+    opacity: 1;
+}
+
+@media (max-width: 360px) {
+    .card {
+        padding: 0rem 1rem 1rem 1rem;
+        background-color: rgb(245,245,247);
+    }
+
+    .card .card-title {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .card .card-title h1 {
+        font-size: 44px;
+        flex: 0;
+    }
+
+    .card .card-title .tagline {
+        font-size: 16px;
+        padding: 0.2rem 0 0 0.2rem;
+    }
+
+    .card img {
+        margin-top: -0.8rem;
+        border: 0;
+        object-fit: cover;
+    }
+
+    .card-bottom {
+        background-color: rgb(245,245,247);
+        border: none;
+    }
+
+    .card .description {
+        padding: 0.2rem 0 0 0.3rem;        
+    }
+
+    .fa-brands {
+        padding: 0.5rem 0.2rem 1.7rem 0.5rem;
+    }
+
+    hr {
+        display: block;
+    }
+}
