@@ -14,7 +14,7 @@ const Card = ({ item }) => {
           <p className="description">{item.description}</p>
           {item.facebook != "" && (
             <>
-              See more at
+              <span>See more at</span>
               <a href={`${item.facebook}`} target="_blank">
                 <i className="fa-brands fa-facebook"></i>
               </a>

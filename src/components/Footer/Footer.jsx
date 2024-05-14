@@ -15,10 +15,10 @@ const Footer = () => {
       </p>
       <p className="footer-creator">
         <span>
-          Made with <i class="fa-solid fa-heart"></i> & ReactJS by{" "}
+          Made with <i className="fa-solid fa-heart"></i> & ReactJS by{" "}
           <a href="https://www.linkedin.com/in/viveksaliya/">
             Vivek Saliya
-            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            <i className="fa-solid fa-arrow-up-right-from-square"></i>
           </a>
         </span>
       </p>

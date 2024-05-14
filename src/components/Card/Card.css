@@ -76,15 +76,19 @@ hr {
         flex-direction: column;
         align-items: start;
     }
-
+    
     .card .card-title h1 {
         font-size: 44px;
+        font-weight: 600;
         flex: 0;
     }
 
     .card .card-title .tagline {
-        font-size: 16px;
+        font-size: 21px;
         padding: 0.2rem 0 0 0.2rem;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: .002em;
     }
 
     .card img {
@@ -96,6 +100,11 @@ hr {
     .card-bottom {
         background-color: rgb(245,245,247);
         border: none;
+    }
+
+    .card-bottom span {
+        padding-left: 0.3rem;
+        color: #7d7d7d;
     }
 
     .card .description {
