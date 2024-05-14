@@ -68,6 +68,7 @@ hr {
     .card {
         padding: 0rem 1rem 1rem 1rem;
         background-color: rgb(245,245,247);
+        scroll-snap-align: none;
     }
 
     .card .card-title {

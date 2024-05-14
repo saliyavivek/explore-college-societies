@@ -44,6 +44,7 @@
         align-items: center;
         width: 100vw;
         border-bottom: 1px solid silver;
+        scroll-snap-align: none;
     }  
 
     .logo-container {

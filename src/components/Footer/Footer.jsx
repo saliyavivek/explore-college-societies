@@ -15,20 +15,17 @@ const Footer = () => {
       </p>
       <p className="footer-creator">
         <span>
-          Made with &hearts; & ReactJS by{" "}
-          {/* <a href="https://www.instagram.com/vivek.saliya/" target="_blank"> */}
-          Vivek Saliya
-          {/* </a> */}.
+          Made with <i class="fa-solid fa-heart"></i> & ReactJS by Vivek Saliya
         </span>
       </p>
       <p className="footer-links">
-        <a href="https://www.instagram.com/vivek.saliya/" target="_blank">
+        <a href="https://www.linkedin.com/in/viveksaliya/" target="_blank">
           <i className="fa-brands fa-linkedin"></i>
         </a>
         <a href="https://www.instagram.com/vivek.saliya/" target="_blank">
           <i className="fa-brands fa-instagram"></i>
         </a>
-        <a href="https://www.instagram.com/vivek.saliya/" target="_blank">
+        <a href="https://twitter.com/vs_2611" target="_blank">
           <i className="fa-brands fa-x-twitter"></i>
         </a>
       </p>
