@@ -41,6 +41,9 @@ const Footer = () => {
         <a href="https://www.youtube.com/@sdjicevents5641" target="_blank">
           <i className="fa-brands fa-youtube"></i>
         </a>
+        <a href="https://www.sdjic.org" target="_blank">
+          <i className="fa-solid fa-globe"></i>
+        </a>
       </p>
     </div>
   );

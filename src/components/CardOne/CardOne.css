@@ -1,0 +1,91 @@
+.card-one {
+    height: 425px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border: 1px solid rgb(229, 227, 227);
+    transition: all .3s cubic-bezier(0,0,.5,1);
+    background-color: #fff;
+}
+
+.card-one:hover {
+    transform: scale(1.01);
+    box-shadow: 2px 4px 12px #00000014;
+}
+
+.card-one img {
+    height: 200px;
+    width: 100%;
+    object-fit:fill;
+    border-bottom: 1px solid gainsboro;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    /* background-color: rgb(235, 235, 235); */
+}
+
+.card-one-details {
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.card-one-details .card-one-title {
+    font-weight: 600;
+}
+
+.card-one-details .card-one-title a {
+    color: #1D1D1F;
+    text-decoration: none;
+}
+
+.card-one-details .card-one-title a:hover {
+    color: #000;
+}
+
+.card-one-details .card-one-tagline {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.card-one-details .card-one-description {
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.card-one-details .card-one-links {
+    margin-top: 0.5rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.card-one-details .card-one-links a {
+    color: inherit;
+    font-size: 22px;
+    opacity: 0.8;
+    margin: 0 5px;
+    text-align: center;
+    transition: all .1s ease-in;
+}
+
+.card-one-details .card-one-links a:hover {
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+@media (max-width: 500px) {
+    .card-one {
+        transition: none;
+        width: 100%;
+        height: auto;
+    }  
+    
+    .card-one:hover {
+        transform: none;
+        box-shadow: 0;
+    }
+}

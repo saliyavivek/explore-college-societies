@@ -28,7 +28,7 @@
 @media (max-width: 500px) {
     .banner-container {
         position: relative;
-        width: 100vw;
+        /* width: 100%; */
         margin-top: 15px;
     }
 

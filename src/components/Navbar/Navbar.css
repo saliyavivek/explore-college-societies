@@ -20,11 +20,13 @@
 
 .nav-links {
     display: flex;
-    gap: 5px;
+    gap: 10px;
     align-items: center;
+    padding-right: 10px;
 }
 
 .nav-links i{
+    font-size: 1.3rem;
     cursor: pointer;
     opacity: 0.8;
     color: black;
@@ -43,7 +45,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100vw;
+        width: 100%;
         border-bottom: 1px solid silver;
         scroll-snap-align: none;
     }  

@@ -1,0 +1,20 @@
+.card-one-container {
+    min-height: 100vh;
+    max-width: 100%;
+    margin: 2.5rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    row-gap: 2rem;
+    background-color: #f9f9fc;
+    padding: 4rem 0 4rem 5rem;
+}
+
+@media (max-width: 500px) {
+    .card-one-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        background-color: #fff;
+        margin: 20px 10px;
+    }
+}
