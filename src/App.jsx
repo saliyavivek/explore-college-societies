@@ -16,6 +16,7 @@ function App() {
       {/* {data.map((item) => (
         <Card key={item.id} item={item} />
       ))} */}
+      <h1 className="card-one-heading">Clubs & Societies</h1>
       <div className="card-one-container">
         {data.map((item) => (
           <CardOne key={item.id} item={item} />

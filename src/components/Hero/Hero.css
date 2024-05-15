@@ -7,7 +7,7 @@
 .hero-container .hero-title {
     font-size: 80px;
     margin-bottom: 50px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .video-container video {
@@ -15,7 +15,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
-}
+}  
 
 @media (max-width: 500px) {
     .hero-container {
@@ -26,10 +26,10 @@
     .hero-container .hero-title {
         font-size: 48px;
         margin-bottom: 40px;
-        font-weight: 600;
+        font-weight: 400;
     }
 
     .video-container {
         height: 70vh;
     }
-}
+} 
