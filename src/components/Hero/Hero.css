@@ -10,6 +10,11 @@
     font-weight: 400;
 }
 
+.video-container {
+    width: 100%;
+    height: 100%;
+}
+
 .video-container video {
     width: 100%;
     height: 100%;
@@ -18,10 +23,10 @@
 }  
 
 .play-pause-btns {
-    position: absolute;
-    right: 7rem;
-    top: calc(100vh + 125%);
-    cursor: pointer;
+    width: 100%;
+    position: relative;
+    top: -75px;
+    right: -94%;
 }
 
 .play-pause-btns i {
@@ -46,8 +51,9 @@
     }
 
     .play-pause-btns {
-        position: absolute;
-        right: 2.5rem;
-        top: calc(100vh + 80%);
+        width: 100%;
+        position: relative;
+        top: -70px;
+        right: -83%;
     }
 } 

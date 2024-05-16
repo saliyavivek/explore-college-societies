@@ -22,13 +22,13 @@ const Hero = () => {
             <source src={video1} type="video/mp4" />
             Oops!
           </video>
-        </div>
-        <div className="play-pause-btns" onClick={() => setPaused(!paused)}>
-          {paused ? (
-            <i className="fa-solid fa-circle-play"></i>
-          ) : (
-            <i className="fa-solid fa-circle-pause"></i>
-          )}
+          <div className="play-pause-btns" onClick={() => setPaused(!paused)}>
+            {paused ? (
+              <i className="fa-solid fa-circle-play"></i>
+            ) : (
+              <i className="fa-solid fa-circle-pause"></i>
+            )}
+          </div>
         </div>
       </div>
     </>
