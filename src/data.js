@@ -90,4 +90,34 @@ export default [
     instagram: "",
     tagline: "Groove Together, Move Together.",
   },
+  {
+    id: 10,
+    title: "Rangmanch",
+    coverImg: "rangmanch.png",
+    description:
+      "The drama club of our college is hyperactive and has performed all over the state. Which is into acting and related things.",
+    facebook: "",
+    instagram: "",
+    tagline: "Where Every Scene is a Stage for Creativity.",
+  },
+  {
+    id: 11,
+    title: "Page Turners & 24*7",
+    coverImg: "pageturner.jpg",
+    description:
+      "One of the most quality delivering club, Page Turners, which was started for book reading. works closely with 24'8, current affairs club, and organizes various activities like discussions, quizzes, debates etc.",
+    facebook: "",
+    instagram: "",
+    tagline: "Stay Informed, Shape Tomorrow.",
+  },
+  {
+    id: 12,
+    title: "Money Innovation Business - MIB",
+    coverImg: "mib.png",
+    description:
+      "It's the business club of college which focuses on helping budding entrepreneurs from college and conduct simulation business activities.",
+    facebook: "",
+    instagram: "",
+    tagline: "Innovate, Invest, Inspire.",
+  },
 ];
