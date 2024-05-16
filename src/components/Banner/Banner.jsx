@@ -5,11 +5,11 @@ const Banner = () => {
   return (
     <div className="banner-container">
       <div className="banner-text">
-        <h1>Explore Our Vibrant College Societies!</h1>
-        <p className="scroll">
+        <h1>Explore and Engage with Our College Societies</h1>
+        {/* <p className="scroll">
           Scroll down <br />
           &darr;
-        </p>
+        </p> */}
       </div>
     </div>
   );

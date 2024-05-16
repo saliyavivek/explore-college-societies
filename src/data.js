@@ -74,7 +74,7 @@ export default [
     title: "Corporate Communication Cell - C3",
     coverImg: "c3.png",
     description:
-      "C3 is for helping students in building their communication skills and conducts various workshops and events for same.",
+      "C3 is for helping students in building their communication skills.",
     facebook:
       "https://m.facebook.com/people/C3-Corporate-Communication-Cell/100069136785186/",
     instagram: "",

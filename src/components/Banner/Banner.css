@@ -17,8 +17,9 @@
 
 .banner-text h1{
     font-size: 7rem;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
     font-weight: 500;
+    /* line-height: 100px; */
 }
 
 .banner-text .scroll:hover {
