@@ -27,7 +27,7 @@ function App() {
     }
   };
   return (
-    <>
+    <div className="App">
       <Navbar />
       <Banner />
       <Hero />
@@ -66,7 +66,7 @@ function App() {
         )}
       </div>
       <Footer />
-    </>
+    </div>
   );
 }
 
