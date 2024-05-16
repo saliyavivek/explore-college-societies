@@ -12,7 +12,9 @@ function App() {
   const [search, setSearch] = useState("");
   const [resultItems, setResultItems] = useState([]);
   const handleSearch = () => {
-    const result = data.filter((item) => item.title.toLowerCase() === search);
+    const result = data.filter(
+      (item) => item.title.toLowerCase() == search.toLowerCase()
+    );
     setResultItems(result);
   };
 
