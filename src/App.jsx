@@ -15,6 +15,15 @@ function App() {
     const result = data.filter((item) => item.title.toLowerCase() === search);
     setResultItems(result);
   };
+
+  const handleEnterPress = (e) => {
+    if (e.key === "Enter") {
+      handleSearch();
+    }
+    if (e.key === "Backspace") {
+      return setResultItems([]);
+    }
+  };
   return (
     <>
       <Navbar />
@@ -29,12 +38,15 @@ function App() {
           <div className="search-club">
             <input
               type="text"
-              placeholder="Search Club or Societies"
+              placeholder="Search Clubs or Societies"
               onChange={(e) => setSearch(e.target.value)}
               value={search}
-              onKeyUp={handleSearch}
+              onKeyUp={(e) => handleEnterPress(e)}
             />
-            <i className="fa-solid fa-magnifying-glass"></i>
+            <i
+              className="fa-solid fa-magnifying-glass"
+              onClick={handleSearch}
+            ></i>
           </div>
         </div>
         {resultItems.length ? (

@@ -30,7 +30,7 @@
 @media (max-width: 500px) {
     .banner-container {
         position: relative;
-        margin-top: 15px;
+        margin-top: 25px;
     }
 
     .banner-text h1 {

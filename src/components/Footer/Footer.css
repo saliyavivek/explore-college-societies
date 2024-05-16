@@ -40,16 +40,16 @@
 @media (max-width: 500px) {
     .footer {
         display: block;
-        padding: 0;
+        padding: 1.5rem 0;
         margin: 0;
         height: auto;
-        padding-top: 1.3rem;
-        font-size: 0.85rem;
+        /* padding-top: 1.3rem; */
     }
 
     .footer .footer-copyright {
-        line-height: 20px;
+        line-height: 30px;
         margin-bottom: 0.5rem;
+        font-size: 1rem;
     }
 
     .footer-links {
@@ -60,7 +60,7 @@
     .footer-links i{
         padding: 0.5rem;
         margin-top: 0.5rem;
-        font-size: 1rem;
+        font-size: 1.25rem;
     }
 
     .footer-creator {
