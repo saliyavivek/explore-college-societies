@@ -27,28 +27,48 @@
     color: #f56a5d;
 }
 
+.banner-img {
+    display: none;
+}
+
 @media (max-width: 500px) {
     .banner-container {
-        padding: 0 1.2rem;
+        padding: 0 2.2rem;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        margin-top: 0;
+    }
+
+    .banner-img {
+        display: block;
+        height: 170px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    
+    .banner-img img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
     }
 
     .banner-text {
+        text-align:center;
         margin-top: -4rem;
+        font-size: 1rem;
     }
-
+    
     .banner-text h1 {
-        font-size: 48px;
+        font-size: 20px;
         font-weight: 300;
         margin-bottom: 0;
-        line-height: 90px;
+        letter-spacing: 4px;
     }
 
     .banner-text .word {
+        font-size: 20px;
         font-weight: 300;
-        font-size: 48px;
         color: #f56a5d;
     }
 }
