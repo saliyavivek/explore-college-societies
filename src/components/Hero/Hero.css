@@ -58,9 +58,11 @@
 
 @media (max-width: 500px) {
     .hero-container {
-        padding: 0 1rem 2rem 1rem;
+        padding: 2.2rem 1rem 2rem 1rem;
         min-height: auto;
     }
+
+    
 
     .hero-top {
         display: flex;
