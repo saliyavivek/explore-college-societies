@@ -4,7 +4,7 @@ export default [
     title: "Snapture",
     coverImg: "snapture.png",
     description:
-      "Snapture is created to collect the photography enthusiastic & like-minded photography lovers, which can learn & share the art of photography in modest possible manner through their experience in this field.",
+      "Snapture is created to collect the photography enthusiastic & like-minded photography lovers, which can learn & share the art of photography.",
     facebook: "https://www.facebook.com/snapturestory/",
     instagram: "https://www.instagram.com/snapture.sdjic/",
     tagline: "Capturing Moments, Creating Memories.",

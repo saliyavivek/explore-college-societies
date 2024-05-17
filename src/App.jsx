@@ -1,7 +1,6 @@
 import { useState } from "react";
 import "./App.css";
 import Banner from "./components/Banner/Banner";
-// import Card from "./components/Card/Card";
 import CardOne from "./components/CardOne/CardOne.jsx";
 import Footer from "./components/Footer/Footer.jsx";
 import Hero from "./components/Hero/Hero.jsx";
@@ -31,9 +30,6 @@ function App() {
       <Navbar />
       <Banner />
       <Hero />
-      {/* {data.map((item) => (
-        <Card key={item.id} item={item} />
-      ))} */}
       <div className="section">
         <h1 className="card-one-heading">Clubs & Societies</h1>
         <div className="search-container">

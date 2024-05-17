@@ -1,13 +1,12 @@
 .card-one {
-    height: 425px;
-    width: 400px;
+    height: auto;
+    width: 340px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     transition: all .3s cubic-bezier(0,0,.5,1);
     background-color: #fff;
     border-radius: 12px;
-    border: 1px solid lightgray;
+    padding: 12px;
 }
 
 .card-one:hover {
@@ -19,22 +18,16 @@
     height: 200px;
     width: 100%;
     object-fit:fill;
-    border-bottom: 1px solid gainsboro;
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
-    /* background-color: rgb(235, 235, 235); */
+    border-radius: 12px;
 }
 
 .card-one-details {
     padding: 1rem;
     background-color: #fff;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
 }
 
 .card-one-details .card-one-title {
     font-size: 24px;
-    /* font-weight: 600; */
     font-weight: bold;
     margin-bottom: 4px;
 }
@@ -87,13 +80,16 @@
 @media (max-width: 500px) {
     .card-one {
         transition: none;
-        width: 100%;
-        height: auto;
+        width: 90%;     
     }  
     
     .card-one:hover {
         transform: none;
         box-shadow: 0;
+    }
+
+    .card-one-details {
+        padding-left: 2px;
     }
 
     .card-one-container {

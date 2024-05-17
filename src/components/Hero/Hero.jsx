@@ -16,8 +16,13 @@ const Hero = () => {
   return (
     <>
       <div className="hero-container">
-        <h1 className="hero-title">Inferno</h1>
-        <div className="video-container">
+        <div className="hero-top">
+          <a href="https://www.facebook.com/inferno.sdjic/">
+            <h1 className="hero-title">Inferno</h1>
+          </a>
+          <p>Igniting Passion, Uniting Talent.</p>
+        </div>
+        <div className="video-container" onClick={() => setPaused(!paused)}>
           <video width="320" height="240" id="myVideo" muted autoPlay>
             <source src={video1} type="video/mp4" />
             Oops!

@@ -4,35 +4,50 @@
     justify-content: center;
     align-items: center;
     margin-top: 40px;
-    scroll-snap-align: start;
+    padding: 0 9.5rem;
 }
 
 .banner-text {
     text-align: center;
-    letter-spacing: 5px;
     display: flex;
     flex-direction: column;
     color: #1D1D1F;
 }
 
 .banner-text h1{
-    font-size: 7rem;
+    font-size: 6rem;
     margin-bottom: 20px;
-    font-weight: 500;
-    /* line-height: 100px; */
+    font-weight: 300;
+    letter-spacing: 10px;
+}
+
+.banner-text .word {
+    font-weight: 300;
+    font-size: 6rem;
+    color: #f56a5d;
 }
 
 @media (max-width: 500px) {
     .banner-container {
-        position: relative;
-        margin-top: 25px;
+        padding: 0 1.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .banner-text {
+        margin-top: -4rem;
     }
 
     .banner-text h1 {
-        font-size: 4.2rem;
-        text-align: left;
-        padding: 0 0 0 1.2rem;
-        font-weight: 400;
-        line-height: 90px;
+        font-size: 48px;
+        font-weight: 300;
+        margin-bottom: 0;
+    }
+
+    .banner-text .word {
+        font-weight: 300;
+        font-size: 48px;
+        color: #f56a5d;
     }
 }
