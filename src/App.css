@@ -62,8 +62,8 @@
     .card-one-container {
         display: flex;
         flex-direction: column;
-        padding: 0; 
-        margin: 20px 0px 0px 10px;
+        padding-left: 20px; 
+        padding-right: 10px;
     }
 
     .section {
