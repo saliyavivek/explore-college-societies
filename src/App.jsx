@@ -6,6 +6,7 @@ import Footer from "./components/Footer/Footer.jsx";
 import Hero from "./components/Hero/Hero.jsx";
 import Navbar from "./components/Navbar/Navbar";
 import data from "./data.js";
+import Maintenance from "./Maintenance.jsx";
 
 function App() {
   const [search, setSearch] = useState("");
@@ -27,7 +28,8 @@ function App() {
   };
   return (
     <div className="App">
-      <Navbar />
+      <Maintenance />
+      {/* <Navbar />
       <Banner />
       <Hero />
       <div className="section">
@@ -61,7 +63,7 @@ function App() {
           </div>
         )}
       </div>
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
