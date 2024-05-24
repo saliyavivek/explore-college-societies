@@ -42,7 +42,7 @@
 
     .banner-img {
         display: block;
-        height: 220px;
+        /* height: 220px; */
         width: 110%;
         margin-bottom: 40px;
     }
