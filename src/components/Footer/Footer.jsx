@@ -8,7 +8,7 @@ const Footer = () => {
         <span>
           Copyright © 2024{" "}
           <a href="https://www.sdjic.org" target="_blank">
-            SDJIC
+            Vivek Saliya
           </a>
           . All rights reserved.
         </span>
@@ -23,27 +23,24 @@ const Footer = () => {
         </span>
       </p>
       <p className="footer-links">
-        <a href="https://www.facebook.com/SDJInternational/" target="_blank">
+        <a href="https://www.facebook.com/" target="_blank">
           <i className="fa-brands fa-facebook"></i>
         </a>
-        <a
-          href="https://www.linkedin.com/school/sdjic/?originalSubdomain=in"
-          target="_blank"
-        >
+        <a href="https://www.linkedin.com/in/viveksaliya/" target="_blank">
           <i className="fa-brands fa-linkedin"></i>
         </a>
-        <a
-          href="https://www.instagram.com/sdj_international_college/"
-          target="_blank"
-        >
+        <a href="https://www.instagram.com/vivek.saliya/" target="_blank">
           <i className="fa-brands fa-instagram"></i>
         </a>
-        <a href="https://www.youtube.com/@sdjicevents5641" target="_blank">
+        <a
+          href="https://www.youtube.com/channel/UCbtvPJctIfegTu1dF91Bp0g"
+          target="_blank"
+        >
           <i className="fa-brands fa-youtube"></i>
         </a>
-        <a href="https://www.sdjic.org" target="_blank">
+        {/* <a href="https://www.sdjic.org" target="_blank">
           <i className="fa-solid fa-globe"></i>
-        </a>
+        </a> */}
       </p>
     </div>
   );

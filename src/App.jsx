@@ -28,8 +28,8 @@ function App() {
   };
   return (
     <div className="App">
-      <Maintenance />
-      {/* <Navbar />
+      {/* <Maintenance /> */}
+      <Navbar />
       <Banner />
       <Hero />
       <div className="section">
@@ -63,7 +63,7 @@ function App() {
           </div>
         )}
       </div>
-      <Footer /> */}
+      <Footer />
     </div>
   );
 }

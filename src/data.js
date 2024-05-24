@@ -34,7 +34,7 @@ export default [
     title: "The Lions",
     coverImg: "thelions.jpg",
     description:
-      "The sports club of the eollege that actively participates and promotes different sports at alllevels.",
+      "The sports club of the eollege that actively participates and promotes different sports at all levels.",
     facebook: "https://www.facebook.com/THELIONSOFSDJ/",
     instagram: "https://www.instagram.com/the_lions_club_sdjic/",
     tagline: "Unleash Your Potential, Play with Passion.",
@@ -54,7 +54,7 @@ export default [
     title: "Big Brand Marketing",
     coverImg: "bbm.jpg",
     description:
-      "BBM helps in marketing of all events and teaches students logo making and various aspects ot markcting.",
+      "BBM helps in marketing of all events and teaches students logo making and various aspects ot marketing.",
     facebook: "https://www.facebook.com/BigBrandMarketing/",
     instagram: "",
     tagline: "Inspire. Innovate. Influence.",
